@@ -77,17 +77,17 @@ padding: 20rem 10rem;
                                             rgba($color-white, .9) 0%,
                                             rgba($color-white, .9) 50%,
                                             transparent 50%),
-                        url(https://source.unsplash.com/random/800x600/?superbikes&1);
+                        url(../../tech/img2.jpg);
     background-size: cover;
     border-radius: 3px;
     background-size: 100%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.5);
 
     @include respond(tab-land){
-        background-image: linear-gradient(105deg, rgba($color-white, .9) 0%, rgba($color-white,.9)65%, transparent 65% )url(https://source.unsplash.com/random/800x600/?superbikes&1);
+        background-image: linear-gradient(105deg, rgba($color-white, .9) 0%, rgba($color-white,.9)65%, transparent 65% )url(../../tech/img2.jpg);
     }
     @include respond(tab-port){
-        background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white,.9)100% ),url(https://source.unsplash.com/random/800x600/?superbikes&1);
+        background-image: linear-gradient(to right, rgba($color-white, .9) 0%, rgba($color-white,.9)100% ),url(../../tech/img2.jpg);
     }
 
     &__form{
